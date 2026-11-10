@@ -10,6 +10,16 @@
 | [Backend](https://github.com/Course-Registration-System/Backend) | 서버, DB |
 | [Frontend](https://github.com/Course-Registration-System/Frontend) | 웹 화면 |
 
+## 기술 스택
+
+| 구분 | 내용 |
+| --- | --- |
+| Backend | Java 21, Spring Boot 4.1 (Web MVC, JdbcTemplate, Validation), Gradle. ORM(JPA)·Lombok 은 쓰지 않고 SQL 을 직접 작성 |
+| Frontend | React 19, TypeScript, Vite 8 |
+| DB | MySQL 8.4 (테스트는 H2 인메모리) |
+
+실행 방법은 각 레포 README에 있습니다. 로컬에서는 백엔드 8080, 프론트 5173 포트를 쓰고, 프론트의 `/api` 요청은 백엔드로 프록시됩니다.
+
 ## 레포 보호 설정 (main 브랜치)
 
 | | Docs | Backend / Frontend |
